@@ -2,11 +2,16 @@
 
 function reverseString(s) {
     try { 
-      typeof s !== "string"? throw new MyError('give me a string') : (s = s.split("").reverse().join(""));
+      if (typeof s !== "string") { 
+        throw new SyntaxError('give me a string') 
+      }
+      else {
+        s = s.split("").reverse().join("");
   console.log(s);
+  }
     }
   catch (err){
-    console.log(err.name, err.message)
+    console.log( `You have a ${err.name}, ${err.message}`)
   }
   }
-  reverseString(5415)
+  reverseString(5455)
