@@ -71,6 +71,7 @@ gradeLabs(studentLabs2);
 
 
 | ## Input | ##Output |
+| --- | --- |
 | myRegExp.test("1234") | true |
 | myRegExp.test("45135") | false |
 | myRegExp.test("89abc1") | false |
