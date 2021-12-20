@@ -79,3 +79,15 @@ gradeLabs(studentLabs2);
 | myRegExp.test(" 4983") | false |
 
 [Solution](Regexp01.js)
+
+## Regexp 02
+
+```js
+const REGEXP = /abc/;
+let str = '<> <a href="/"> <input type="radio" checked> <b>';
+str.match(REGEXP);
+'<a href="/">', '<input type="radio" checked>', "<b>";
+```
+
+[Solution](Regexp02.js)
+ - Կիսատ է
