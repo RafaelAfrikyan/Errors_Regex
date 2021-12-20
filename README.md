@@ -7,3 +7,11 @@ Complete the reverseString function, it has one parameter s. You must perform th
 exception was thrown, this should be the original string.
 
 [reverseStr.js](reverseStr.js)
+
+
+## 02. Check isPositive number
+
+Complete the isPositive function below. It has one integer parameter a . If the value of a is positive, it must
+return the string YES. Otherwise, it must throw an Error according to the following rules:
+
+[checkNum.js](checkNum.js)
