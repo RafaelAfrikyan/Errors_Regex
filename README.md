@@ -64,13 +64,13 @@ gradeLabs(studentLabs2);
 
 ## Regexp 01
 
--Create a RegExp myRegExp to test if a string is a valid pin or not. A valid pin has:
--Exactly 4 or 6 characters.
--Only numerical characters (0-9).
--No whitespace.
+- Create a RegExp myRegExp to test if a string is a valid pin or not. A valid pin has:
+- Exactly 4 or 6 characters.
+- Only numerical characters (0-9).
+- No whitespace.
 
 
-| ## Input | ##Output |
+| Input | Output |
 | --- | --- |
 | myRegExp.test("1234") | true |
 | myRegExp.test("45135") | false |
@@ -78,4 +78,4 @@ gradeLabs(studentLabs2);
 | myRegExp.test("900876") | true |
 | myRegExp.test(" 4983") | false |
 
-[]
+[Solution](Regexp01.js)
