@@ -16,6 +16,18 @@ return the string YES. Otherwise, it must throw an Error according to the follow
 
 [checkNum.js](checkNum.js)
 
+## 03. Convert the code using try...catch.
+
+```js
+function reverseString(s) {
+typeof s !== "string"
+? console.log("s.split is not a function")
+: (s = s.split("").reverse().join(""));
+console.log(s);
+}
+```
+[tryCatch.js](tryCatch.js)
+
 ## 04. Teacher & students
 
 A teacher has created a gradeLabs function that verifies if student programming labs work. This function
