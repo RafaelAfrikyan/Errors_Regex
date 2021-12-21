@@ -90,4 +90,4 @@ str.match(REGEXP);
 ```
 
 [Solution](Regexp02.js)
- - Կիսատ է
+ 
