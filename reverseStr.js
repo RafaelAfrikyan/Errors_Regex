@@ -5,7 +5,7 @@ function reveseStr (s) {
   try { returned = s.split('').reverse().join('')
   }
   catch (err) {
-    console.log(`Դուք մուտքագրել եք ${typeof s}, իսկ պետք է մուտթագրեիք ${typeof ''} արա`)
+    console.log(`Դուք մուտքագրել եք ${typeof s}, իսկ պետք է մուտթագրեիք ${typeof ''}`)
     console.log(`Your input - ${s}`)
   }
   console.log(returned)
